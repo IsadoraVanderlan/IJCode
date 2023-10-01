@@ -1,5 +1,9 @@
+import Header from '@/components/Sections/header/Header';
+
 export default function Home() {
   return (
-    <h1>IJ Code</h1>
-  )
+    <main>
+      <Header />
+    </main>
+  );
 }

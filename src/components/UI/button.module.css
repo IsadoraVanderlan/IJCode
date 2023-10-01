@@ -1,0 +1,15 @@
+.button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  background: #a551c3;
+  color: rgb(255, 255, 255);
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(0.2turn, #6c8b9a, #b45c9b);
+}

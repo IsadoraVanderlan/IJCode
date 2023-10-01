@@ -1,0 +1,25 @@
+.main {
+  padding: 10px 100px;
+}
+
+.main, .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.menuli {
+  cursor: pointer;
+}
+
+
+
+
