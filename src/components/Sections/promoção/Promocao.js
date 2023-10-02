@@ -10,7 +10,7 @@ const Promocao = () => {
 
       <div className={styles.textopromocao}>
         <h2>Desconto Exclusivo</h2>
-        <p className={styles.ppromocao}>Indique um amigo e ganhe desconto de 20% exclusivos no desenvolvimento do seu site!</p>
+        <p className={styles.ppromocao}>Indique um amigo e ganhe desconto de 20% no desenvolvimento do seu site!</p>
 
         <h3>Detalhes da Promoção:</h3>
         <ul className={styles.ulpromocao}>

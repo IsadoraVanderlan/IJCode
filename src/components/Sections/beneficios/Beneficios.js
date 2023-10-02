@@ -5,7 +5,7 @@ const Beneficios = () => {
   return (
     <div className={styles.beneficios}>
       <h2>Benefícios</h2>
-      <p className={styles.pbeneficios}>Criar um site com a IJCode pode oferecer uma série de benefícios significativos para indivíduos e empresas que desejam estabelecer uma presença online sólida e eficaz. Abaixo, destacamos três desses benefícios:</p>
+      <p className={styles.pbeneficios}>Crie um site com a IJCode, podemos oferecer uma série de benefícios significativos para pessoas e empresas que desejam estabelecer uma presença online sólida e eficaz. Abaixo, destacamos três desses benefícios:</p>
 
       <ul className={styles.ulbeneficios}>
         <li>
