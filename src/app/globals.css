@@ -5,3 +5,19 @@
   list-style: none;
   text-decoration: none;
 }
+
+h1, h2, h3, h4 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  font-family: 'Nunito', sans-serif;
+}
+
+li {
+  font-family: 'Nunito', sans-serif;
+}
