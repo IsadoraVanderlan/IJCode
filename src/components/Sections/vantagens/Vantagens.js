@@ -34,7 +34,7 @@ const Vantagens = () => {
         </ul>
       </div>
 
-      <button className={styles.button}>Contato</button>
+      <img className={styles.imgdivisor} src="/img/connector.webp" alt="" />
       
     </div>
   )

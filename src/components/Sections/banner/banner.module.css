@@ -1,7 +1,7 @@
 .banner {
   display: inline-flex;
-  background: linear-gradient(217deg, #3C4CF3, #e032a6 90%),
-              linear-gradient(127deg, #E032A6, #3c4bf3 10%);
+  background: linear-gradient(217deg,  #6560e6, #d835aa 90%),
+              linear-gradient(127deg, #d835aa,  #6560e6 10%);
   height: 450px;
   width: 100%;
   position: relative;
