@@ -1,27 +1,36 @@
+'use client';
 import React from 'react';
-// import {register} from 'swiper/element/bundle';
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-// import {Swiper, SwiperSlide} from 'swiper/react';
-
-// register();
+import { Carousel } from 'react-responsive-carousel';
+import { items } from '../../../assets/Items.json';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import styles from './depoimentos.module.css';
 
 const Depoimentos = () => {
+  const { responsive } = items;
   return (
-    <div>
-      <h2>Depoimentos</h2>
-      <p>Veja abaixo os depoimentos de nossos cliente.</p>
-
-      {/* <Swiper>
-        <SwiperSlide>
-          <img src="../../../../public/img/logo_ijcode.png" alt="" />
-        </SwiperSlide>
-      </Swiper> */}
-      
+    <div className={styles.container}>
+      <Carousel
+        showArrows={true}
+        showIndicators={true}
+        infiniteLoop={true}
+        dynamicHeight={false}
+        className={styles.mySwiper}
+      >
+        {responsive.map((item) => (
+          <div key={item.id} className={styles.swipItem}>
+            <div className={styles.imgBox}>
+              <img src={item.imageUrl} alt="slides" />
+            </div>
+            <div className={styles.detail}>
+              <h2>{item.title}</h2>
+              <h2>{item.subTitle}</h2>
+              <p>{item.text}</p>
+            </div>
+          </div>
+        ))}
+      </Carousel>
     </div>
-  )
-}
+  );
+};
 
-export default Depoimentos
+export default Depoimentos;

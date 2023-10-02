@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.main}>
         <img
           className={styles.logo}
-          src="/img/logo_ijcode_transparente.png"
+          src="/img/logo3.png"
           alt=""
         />
         <div className={styles.nav}>
