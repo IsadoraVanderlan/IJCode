@@ -1,0 +1,47 @@
+.banner {
+  display: inline-flex;
+  background: linear-gradient(217deg, #3C4CF3, #e032a6 90%),
+              linear-gradient(127deg, #E032A6, #3c4bf3 10%);
+  height: 450px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 75px;
+  font-family: 'Comfortaa', cursive;
+  color: rgb(255, 255, 255);
+}
+
+.textobanner h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+
+.textobanner p {
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 100px;
+}
+
+.textobanner ul {
+  padding-top: 30px;
+}
+
+.textobanner li {
+  padding-left: 100px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.imgbanner {
+  padding-top: 80px;
+  width: 800px;
+}
+
+.imgbanner img{
+  width: 100%;
+}
+
+
+
+
