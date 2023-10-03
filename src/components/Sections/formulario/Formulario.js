@@ -6,15 +6,17 @@ const formulario = () => {
     <div>
       <div className={styles.formulario}>
         <h2>Orçamento</h2>
-        <p className={styles.pform}>Preencha o formulario para realizar um orçamento sem compromisso!</p>
+        <p className={styles.pform}>
+          Preencha o formulario para realizar um orçamento sem compromisso!
+        </p>
 
         <div className={styles.conteudoform}>
           <div className={styles.textform}>
             <h3>Contato:</h3>
 
             <ul className={styles.ulform}>
-              <li>Email: ijcode.oficial@gmail.com</li>
-              <li>WhatsApp: (11)96650-2947</li>
+              <li>ijcode.oficial@gmail.com</li>
+              <li>Whats: (11)96650-2947</li>
               <li>Instagram: @ij.code</li>
             </ul>
 
@@ -24,23 +26,46 @@ const formulario = () => {
             </p>
 
             <p>
-              Nossos preços são competitivos, você pode solicitar um orçamento sem compromisso, e encontraremos o melhor projeto para você.
+              Nossos preços são competitivos, você pode solicitar um orçamento
+              sem compromisso, e encontraremos o melhor projeto para você.
             </p>
           </div>
 
-          <form className={styles.form} method="get" action="envio_dados.php">
+          <form
+            className={styles.form}
+            action="https://formsubmit.co/ijcode.oficial@gmail.com"
+            method="post"
+          >
             <input
               type="text"
-              name="nome"
+              name="name"
               placeholder="Digite seu Nome..."
+              required
             />
+
             <input
               type="e-mail"
               name="email"
               placeholder="Digite seu e-mail..."
+              required
             />
-            <textarea placeholder="Mensagem"></textarea>
-            <input className={styles.enviarform} type="submit" name="enviar" value="Enviar" />
+
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Mensagem"
+            ></textarea>
+
+            <input
+              type="hidden"
+              name="_next"
+              value=""
+            />
+
+            <input name='Enviar' className={styles.enviarform} type="submit" />
+
+            <input type="hidden" name="_subject" value="Novo Contato!" />
+            <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
       </div>

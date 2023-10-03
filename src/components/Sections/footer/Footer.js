@@ -9,16 +9,16 @@ const Footer = () => {
       </div>
 
       <p>ijcode.oficial@gmail.com</p>
-      
+
       <ul className={styles.ul_img_footer}>
-        <li >
+        <li>
           <a href="">
-            <img src="/img/icons/email.svg" alt="" />
+            <img src="/img/icons/whats.svg" alt="" />
           </a>
         </li>
         <li>
           <a href="">
-            <img src="/img/icons/whats.svg" alt="" />
+            <img src="/img/icons/email.svg" alt="" />
           </a>
         </li>
         <li>

@@ -1,6 +1,6 @@
 .button {
   padding: 6px 15px;
-  border: 2.5px solid #93257486;
+  border: 2.5px solid #df5bba8e;
   border-radius: 8px;
   background: #fff;
   color: #9f4bc9;
@@ -10,5 +10,6 @@
 }
 
 .button:hover {
-  background: #eee9ed;
+  background: #9f4bc9;
+  color: #ffffff;
 }

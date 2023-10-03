@@ -6,19 +6,19 @@ const Banner = () => {
     <div className={styles.banner}>
       <div className={styles.textobanner}>
         <h1>IJCode</h1>
-        <p className={styles.typewriter}>Inovação, tecnologia e sucesso.</p>
+        <p className={styles.typewriter}>Inovação e tecnologia é sucesso.</p>
         <ul className={styles.iconbanner}>
           <li>
             <img src="/img/icons/ok.svg" alt="" />
-            Inovação
+            Inovação e responsividade;
             </li>
           <li>
             <img src="/img/icons/ok.svg" alt="" />
-            Agilidade          
+            Agilidade e responsabilidade;     
             </li>
           <li>
             <img src="/img/icons/ok.svg" alt="" />
-            Confiança
+            Confiança e segurança para sua empresa.
           </li>
         </ul>
       </div>

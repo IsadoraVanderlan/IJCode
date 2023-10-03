@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './vantagens.module.css'
-import Button from '@/components/UI/Button';
 
 const Vantagens = () => {
   return (
     <div className={styles.vantagens}>
-      <h2>Vantagens de Contratar a IJCode</h2>
+      <p className={styles.pTopVantagens}>Contrate a IJCode e</p>
+      <h2>Tenha Vantagens!</h2>
 
-      <p className={styles.pvantagens}>No mundo digital em constante evolução, ter uma presença online sólida tornou-se essencial para empresas de todos os tamanhos e setores. Para nós não é diferente. A criação de um site é uma etapa crucial para estabelecer sua presença na internet e alcançar um público mais amplo.</p>
+      <p className={styles.pvantagens}>No mundo digital em constante evolução, ter uma presença online sólida tornou-se essencial para empresas de todos os tamanhos e setores. Para nós não é diferente.</p>
 
       <div>
         <ul className={styles.ulvantagens}>

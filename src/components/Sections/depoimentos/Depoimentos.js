@@ -1,46 +1,46 @@
-"use client";
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import styles from "./depoimentos.module.css";
-import "swiper/css";
-import "swiper/css/navigation";
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+import styles from './depoimentos.module.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 const cards = [
   {
     id: 1,
-    title: "João Carlos ",
-    subTitle: "De&Fa Uniformes",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam.",
-    imageUrl: "/img/persons/joao.svg",
+    title: 'João Carlos ',
+    subTitle: 'De&Fa Uniformes',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod',
+    imageUrl: '/img/persons/joao.svg',
   },
   {
     id: 2,
-    title: "Swiper Carousel Example",
-    subTitle: "Swiper Carousel Example",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "/img/persons/joao.svg",
+    title: 'Swiper Carousel',
+    subTitle: 'Swiper Carousel Example',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod',
+    imageUrl: '/img/persons/joao.svg',
   },
   {
     id: 3,
-    title: "Swiper Carousel Example",
-    subTitle: "Swiper Carousel Example",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "/img/persons/joao.svg",
+    title: 'Swiper Carousel',
+    subTitle: 'Swiper Carousel Example',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod',
+    imageUrl: '/img/persons/joao.svg',
   },
   {
     id: 4,
-    title: "Swiper Carousel Example",
-    subTitle: "Swiper Carousel Example",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "/img/persons/joao.svg",
+    title: 'Swiper Carousel',
+    subTitle: 'Swiper Carousel Example',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod',
+    imageUrl: '/img/persons/joao.svg',
   },
   {
     id: 5,
-    title: "Swiper Carousel Example",
-    subTitle: "Swiper Carousel Example",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "/img/persons/joao.svg",
+    title: 'Swiper Carousel',
+    subTitle: 'Swiper Carousel Example',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod',
+    imageUrl: '/img/persons/joao.svg',
   },
 ];
 
@@ -49,7 +49,7 @@ const Depoimentos = () => {
     <div className={styles.depoimentos}>
       <section className={styles.title}>
         <h2>Depoimentos</h2>
-        <p></p>
+        <p>Veja abaixo o que nossos clientes tem a falar sobre a IJCode!  </p>
       </section>
 
       <section>
@@ -68,8 +68,8 @@ const Depoimentos = () => {
                 </div>
                 <div className={styles.detail}>
                   <h2>{item.title}</h2>
-                  <h3>{item.subTitle}</h3>
                   <p>{item.text}</p>
+                  <h3>{item.subTitle}</h3>
                 </div>
               </div>
             </SwiperSlide>
