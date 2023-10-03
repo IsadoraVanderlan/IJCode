@@ -31,20 +31,41 @@ const formulario = () => {
             </p>
           </div>
 
-          <form className={styles.form} method="get" action="envio_dados.php">
-            <input type="text" name="nome" placeholder="Digite seu Nome..." />
+          <form
+            className={styles.form}
+            action="https://formsubmit.co/ijcode.oficial@gmail.com"
+            method="post"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Digite seu Nome..."
+              required
+            />
+
             <input
               type="e-mail"
               name="email"
               placeholder="Digite seu e-mail..."
+              required
             />
-            <textarea placeholder="Mensagem"></textarea>
+
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Mensagem"
+            ></textarea>
+
             <input
-              className={styles.enviarform}
-              type="submit"
-              name="enviar"
-              value="Enviar"
+              type="hidden"
+              name="_next"
+              value=""
             />
+
+            <input name='Enviar' className={styles.enviarform} type="submit" />
+
+            <input type="hidden" name="_subject" value="Novo Contato!" />
+            <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
       </div>
