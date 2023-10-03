@@ -1,16 +1,21 @@
 import React from 'react';
-import styles from './promocao.module.css'
+import styles from './promocao.module.css';
 
 const Promocao = () => {
   return (
     <div className={styles.promocao}>
-      <div className={styles.imgpromocao}>
-        <img src="/img/img-desconto.png" alt="" />
+      <div className={styles.caixaimgpromocao}>
+        <div className={styles.imgpromocao}>
+          <img src="/img/img-desconto.png" alt="" />
+        </div>
       </div>
 
       <div className={styles.textopromocao}>
         <h2>Desconto Exclusivo</h2>
-        <p className={styles.ppromocao}>Indique um amigo e ganhe desconto de 20% no desenvolvimento do seu site!</p>
+        <p className={styles.ppromocao}>
+          Indique um amigo e ganhe desconto de 20% no desenvolvimento do seu
+          site!
+        </p>
 
         <h3>Detalhes da Promoção:</h3>
         <ul className={styles.ulpromocao}>
@@ -29,11 +34,15 @@ const Promocao = () => {
         </ul>
 
         <h3>Termos e Condições:</h3>
-        <p>Não há limite para o número de amigos que você pode indicar, então quanto mais amigos você indicar, mais descontos você pode acumular. O desconto só será aplicado quando o seu indicado fizer o primeiro pagamento!</p>
+        <p>
+          Não há limite para o número de amigos que você pode indicar, então
+          quanto mais amigos você indicar, mais descontos você pode acumular. O
+          desconto só será aplicado quando o seu indicado fizer o primeiro
+          pagamento!
+        </p>
       </div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default Promocao
+export default Promocao;

@@ -1,0 +1,44 @@
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.depoimentos h2 {
+  font-size: 60px;
+}
+
+.imgBox {
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+.swipItem img{
+  width: 100%;
+}
+.mySwiper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+}
+
+.swipItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.swipItem h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #d835aa;
+}
+
+.swipItem h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6560e6;
+}

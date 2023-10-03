@@ -18,9 +18,9 @@
 .navbar a:after {
   content: "";
   display: block;
-  height: 4px;
+  height: 2px;
   width: 0px;
-  background: linear-gradient(0.2turn, #3f87a6, #d835aa);
+  background: #d835aa81;
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;

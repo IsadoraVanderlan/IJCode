@@ -1,16 +1,22 @@
 .promocao {
   display: flex;
-  padding: 100px 50px;
+  padding: 0px;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
 }
 
 .imgpromocao {
-  padding: 150px 50px ;
+  padding: 100px;
   width: 100%;
-  background-image: url('/img/shape-gradient2.svg');
+  background-image: url('/img/shape-gradienta1.webp');
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.imgpromocao {
+  display: flex;
+  align-items: flex-start;
+  margin: 100px 120px;
 }
 
 .imgpromocao img {
