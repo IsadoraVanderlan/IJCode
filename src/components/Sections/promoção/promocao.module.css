@@ -1,14 +1,14 @@
 .promocao {
   display: flex;
-  padding: 0px;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  margin-top: 80px;
 }
 
 .imgpromocao {
   padding: 100px;
   width: 100%;
-  background-image: url('/img/shape-gradienta1.webp');
+  background-image: url('/img/fundo1.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -21,8 +21,8 @@
 }
 
 .imgpromocao img {
-  width: 70%;
-  height: 70%;
+  width: 95%;
+  height: 80%;
   border-radius: 20px;
 }
 

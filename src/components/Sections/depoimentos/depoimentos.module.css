@@ -1,7 +1,8 @@
 .depoimentos {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 50px;
+  margin-top: 50px;
 }
 
 .depoimentos h2 {
@@ -19,7 +20,7 @@
 }
 
 .mySwiper{
-  padding: 0px 100px;
+  padding: 0px 150px 0px 80px;
 }
 
 .swipItem{
@@ -29,6 +30,11 @@
   align-items: center;
   text-align: center;
   width: 300px;
+  padding: 30px 20px 50px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #6460e642;
+  box-shadow: 2px 2px 4px 1px rgba(10, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .swipItem img{

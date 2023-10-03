@@ -32,6 +32,7 @@
 
 .textform {
   padding: 50px;
+  margin-left: 60px;
 }
 
 .form {
@@ -46,7 +47,7 @@
   font-family: 'Nunito', sans-serif;
   border-radius: 8px;
   border: 2px solid rgb(225, 225, 228);
-  box-shadow: 2px 2px 2px 1px rgba(10, 0, 0, 0.2);
+  box-shadow: 1px 1px 4px 1px rgba(5, 0, 0, 0.2);
 }
 
 .form textarea {
