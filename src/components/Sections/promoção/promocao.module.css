@@ -2,7 +2,7 @@
   display: flex;
   padding: 0px;
   align-items: center;
-  gap: 100px;
+  margin-bottom: 50px;
 }
 
 .imgpromocao {
@@ -11,17 +11,19 @@
   background-image: url('/img/shape-gradienta1.webp');
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .imgpromocao {
   display: flex;
-  align-items: flex-start;
-  margin: 100px 120px;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgpromocao img {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
+  border-radius: 20px;
 }
 
 .ulpromocao li {
