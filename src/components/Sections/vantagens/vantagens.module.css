@@ -1,0 +1,56 @@
+.vantagens {
+  text-align: center;
+}
+
+.vantagens h2 {
+  font-size: 55px;
+  padding-top: 10px;
+}
+
+.pvantagens {
+  padding: 20px 300px 50px 300px;
+  font-weight: 500;
+}
+
+.ulvantagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.ulvantagens img {
+  width: 20px;
+  padding-top: 20px;
+}
+
+.ulvantagens h3 {
+  color: #d835aa;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.ulvantagens li {
+  border: 2px solid rgb(225, 225, 228);
+  box-shadow: 2px 2px 2px 1px rgba(10, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  width: 220px;
+  padding-bottom: 40px;
+}
+
+.livantagens {
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.livantagens h3 {
+  color: #6560e6 !important;
+}
+
+.imgdivisor {
+  margin-top: 60px;
+}

@@ -1,0 +1,44 @@
+.beneficios {
+  background: linear-gradient(217deg,  #6560e6, #d835aa 90%),
+              linear-gradient(127deg, #d835aa,  #6560e6 10%);
+  width: 100%;
+  padding: 100px 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.beneficios h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.pbeneficios {
+  padding: 10px 200px 50px;
+  font-size: 20px;
+}
+
+.ulbeneficios {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ulbeneficios li {
+  width: 350px;
+  border: 2px solid rgb(225, 225, 228);
+  box-shadow: 2px 2px 2px 1px rgba(10, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.ulbeneficios img {
+  width: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.ulbeneficios h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}

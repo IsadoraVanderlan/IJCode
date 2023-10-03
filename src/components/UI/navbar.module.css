@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+};
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar a {
+  padding: 16px 0;
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.navbar a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #d835aa81;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.navbar a:hover:after {
+  width: 100%;
+}
