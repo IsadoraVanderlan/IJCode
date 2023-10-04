@@ -1,5 +1,5 @@
 .main {
-  padding: 5px 100px;
+  padding: 0px 100px;
 }
 
 .main, .nav {
@@ -11,7 +11,8 @@
 }
 
 .main img {
-  width: 50px;
+  width: 70px;
+  height: 65px;
   border-radius: 50px;
 }
 

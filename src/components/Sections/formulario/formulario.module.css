@@ -13,6 +13,7 @@
 
 .conteudoform {
   display: flex;
+  margin-top: 50px;
 }
 
 .conteudoform h3 {
@@ -28,6 +29,7 @@
 
 .ulform {
   font-size: 15px;
+  font-weight: bold;
 }
 
 .textform {
@@ -38,6 +40,9 @@
 .form {
   width: 100%;
   padding: 50px;
+  background: linear-gradient(217deg,  #6560e6, #d835aa 90%),
+              linear-gradient(127deg, #d835aa,  #6560e6 10%);
+  border-radius: 8px;
 }
 
 .form input {
@@ -48,6 +53,7 @@
   border-radius: 8px;
   border: 2px solid rgb(225, 225, 228);
   box-shadow: 1px 1px 4px 1px rgba(5, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .form textarea {
@@ -64,6 +70,12 @@
 .enviarform {
   font-size: 16px;
   font-weight: bold;
-  background: #6560e6;
+  background: #33333e;
   color: rgb(255, 255, 255);
+}
+
+.enviarform:hover { 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
 }

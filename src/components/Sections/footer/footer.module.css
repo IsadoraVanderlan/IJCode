@@ -9,6 +9,7 @@
 
 .footer p {
   color: rgb(255, 255, 255);
+  font-size: 19px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -18,7 +19,13 @@
   gap: 20px;
 }
 .ul_img_footer li {
-  width: 20px;
+  width: 23px;
+}
+
+.icons:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
 }
 
 .imgfooter img {
@@ -27,5 +34,5 @@
 }
 
 .imgfooter {
-  width: 70px;
+  width: 80px;
 }

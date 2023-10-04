@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import styles from './depoimentos.module.css';
@@ -48,34 +49,37 @@ const Depoimentos = () => {
   return (
     <div className={styles.depoimentos}>
       <section className={styles.title}>
+        <Fade top>
         <h2>Depoimentos</h2>
-        <p>Veja abaixo o que nossos clientes tem a falar sobre a IJCode!  </p>
+        <p>Veja abaixo o que nossos clientes tem a falar sobre a IJCode! </p>
+        </Fade>
       </section>
-
-      <section>
-        <Swiper
-          className={styles.mySwiper}
-          navigation={true}
-          modules={[Navigation]}
-          spaceBetween={200}
-          slidesPerView={3}
-        >
-          {cards.map((item) => (
-            <SwiperSlide>
-              <div className={styles.swipItem}>
-                <div className={styles.imgBox}>
-                  <img src={item.imageUrl} alt="slides" />
+      <Fade rigth>
+        <section>
+          <Swiper
+            className={styles.mySwiper}
+            navigation={true}
+            modules={[Navigation]}
+            spaceBetween={200}
+            slidesPerView={3}
+          >
+            {cards.map((item) => (
+              <SwiperSlide>
+                <div className={styles.swipItem}>
+                  <div className={styles.imgBox}>
+                    <img src={item.imageUrl} alt="slides" />
+                  </div>
+                  <div className={styles.detail}>
+                    <h2>{item.title}</h2>
+                    <p>{item.text}</p>
+                    <h3>{item.subTitle}</h3>
+                  </div>
                 </div>
-                <div className={styles.detail}>
-                  <h2>{item.title}</h2>
-                  <p>{item.text}</p>
-                  <h3>{item.subTitle}</h3>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </section>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </section>
+      </Fade>
     </div>
   );
 };
