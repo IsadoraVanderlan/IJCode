@@ -6,6 +6,7 @@ import Footer from '@/components/Sections/footer/Footer';
 import Header from '@/components/Sections/header/Header';
 import Promocao from '@/components/Sections/promoção/Promocao';
 import Vantagens from '@/components/Sections/vantagens/Vantagens';
+import styles from './page.module.css'; 
 
 export default function Home() {
   return (
@@ -18,6 +19,10 @@ export default function Home() {
       <Depoimentos />
       <Formulario />
       <Footer />
+
+      <div className={styles.whats}>
+        <a href=""><img src="/img/WhatsApp.svg.webp" alt="" /></a>
+      </div>
     </main>
   );
 }
