@@ -28,7 +28,7 @@ const formulario = () => {
               </ul>
 
               <p className={styles.pformcont}>
-                Preencha o formulario ao lado e entraremos em contato para
+                Preencha o formulario e entraremos em contato para
                 podermos lhe atender da melhor forma possivel!
               </p>
             </Fade>

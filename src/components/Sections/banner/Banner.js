@@ -5,7 +5,7 @@ import styles from './banner.module.css';
 
 const Banner = () => {
   return (
-    <div className={styles.banner}>
+    <main className={styles.banner}>
       <div className={styles.textobanner}>
         <h1>IJCode</h1>
         <p className={styles.typewriter}>Inovação e tecnologia é sucesso.</p>
@@ -30,7 +30,7 @@ const Banner = () => {
           <img src="/img/image-from-rawpixel-id-456067-deriv-1.webp" alt="" />
         </Fade>
       </div>
-    </div>
+    </main>
   );
 };
 

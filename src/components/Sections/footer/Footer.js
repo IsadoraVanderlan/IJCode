@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.imgfooter}>
-        <img src="/img/logo-ijcode.png" alt="" />
+        <img src="/img/logo.png" alt="" />
       </div>
 
       <p>ijcode.oficial@gmail.com</p>

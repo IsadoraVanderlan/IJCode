@@ -8,7 +8,7 @@
 .imgpromocao {
   padding: 100px;
   width: 100%;
-  background-image: url('/img/fundo1.png');
+  background-image: url('/img/shape-gradienta2.webp');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -47,9 +47,70 @@
 .textopromocao h3 {
   padding-top: 20px;
   font-size: 23px;
-  color: #d835aa;
+  color: #ad31c9;
 }
 
 .passospromocao {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1600px) {
+  .imgpromocao {
+    padding: 30px;
+    width: 100%;
+
+  }
+  .imgpromocao img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .promocao {
+    display: grid;
+  }
+  .imgpromocao {
+   display: none;
+  }
+  .textopromocao {
+    padding: 0px 300px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .textopromocao {
+    padding: 0px 200px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .textopromocao {
+    padding: 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .textopromocao {
+    padding: 0px 50px;
+  }
+
+  .textopromocao h2 {
+    font-size: 30px;
+  }
+
+  .textopromocao p {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .textopromocao {
+    padding: 0px 20px;
+  }
+  .textopromocao p {
+    font-size: 13px;
+  }
+
 }
