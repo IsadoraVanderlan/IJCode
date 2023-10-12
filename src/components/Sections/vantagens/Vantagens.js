@@ -23,7 +23,7 @@ const Vantagens = () => {
         <ul className={styles.ulvantagens}>
           <Slide top>
             <li className={styles.livantagens}>
-              <img src="/img/icons/confiavel.svg" alt="" />
+              <img src="./img/icons/confiavel.svg" alt="" />
               <h3>Credibilidade</h3>
               <p>
                 Ter um site bem projetado e profissional transmite credibilidade
@@ -34,7 +34,7 @@ const Vantagens = () => {
           </Slide>
           <Slide bottom>
             <li>
-              <img src="/img/icons/publico.svg" alt="" />
+              <img src="./img/icons/publico.svg" alt="" />
               <h3>Público Mais Amplo</h3>
               <p>
                 A presença online amplia o alcance, permitindo-lhe alcançar um
@@ -45,7 +45,7 @@ const Vantagens = () => {
           </Slide>
           <Slide top>
             <li className={styles.livantagens}>
-              <img src="/img/icons/online.svg" alt="" />
+              <img src="./img/icons/online.svg" alt="" />
               <h3>Visibilidade Online</h3>
               <p>
                 A criação de um site permite a presença online 24 horas por dia,
@@ -57,7 +57,7 @@ const Vantagens = () => {
           </Slide>
           <Slide bottom>
             <li>
-              <img src="/img/icons/clientes.svg" alt="" />
+              <img src="./img/icons/clientes.svg" alt="" />
               <h3>Interação com Clientes</h3>
               <p>
                 Um site oferece a oportunidade de interagir diretamente com os
@@ -68,7 +68,7 @@ const Vantagens = () => {
           </Slide>
           <Slide top>
             <li className={styles.livantagens}>
-              <img src="/img/icons/competitivo.svg" alt="" />
+              <img src="./img/icons/competitivo.svg" alt="" />
               <h3>Competitividade</h3>
               <p>
                 Na era digital, a maioria das empresas já possui sites. Para
@@ -83,7 +83,7 @@ const Vantagens = () => {
 
       <div>
         <Slide top>
-          <img className={styles.imgdivisor} src="/img/connector.webp" alt="" />
+          <img className={styles.imgdivisor} src="./img/connector.webp" alt="" />
         </Slide>
       </div>
     </div>

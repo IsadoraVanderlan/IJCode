@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="whats">
         <a href="">
-          <img src="/img/WhatsApp.svg.webp" alt="" />
+          <img src="./img/WhatsApp.svg.webp" alt="" />
         </a>
       </div>
     </main>

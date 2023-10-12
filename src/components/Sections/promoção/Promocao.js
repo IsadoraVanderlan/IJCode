@@ -9,7 +9,7 @@ const Promocao = () => {
       <Fade left>
         <div className={styles.caixaimgpromocao}>
           <div className={styles.imgpromocao}>
-            <img src="/img/img-desconto.png" alt="" />
+            <img src="./img/img-desconto.png" alt="" />
           </div>
         </div>
       </Fade>

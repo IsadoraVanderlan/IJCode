@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.imgfooter}>
-        <img src="/img/logo.png" alt="" />
+        <img src="./img/logo.png" alt="" />
       </div>
 
       <p>ijcode.oficial@gmail.com</p>
@@ -13,17 +13,17 @@ const Footer = () => {
       <ul className={styles.ul_img_footer}>
         <li className={styles.icons}>
           <a href="" >
-            <img src="/img/icons/whats.svg" alt="" />
+            <img src="./img/icons/whats.svg" alt="" />
           </a>
         </li>
         <li className={styles.icons}>
           <a href="" >
-            <img src="/img/icons/email.svg" alt="" />
+            <img src="./img/icons/email.svg" alt="" />
           </a>
         </li>
         <li className={styles.icons}>
           <a href="" >
-            <img src="/img/icons/insta.svg" alt="" />
+            <img src="./img/icons/insta.svg" alt="" />
           </a>
         </li>
       </ul>
