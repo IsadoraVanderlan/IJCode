@@ -9,7 +9,7 @@
 .imgpromocao {
   padding: 100px;
   width: 100%;
-  background-image: url('/img/shape-gradienta2.webp');
+  background-image: url('./img/shape-gradienta2.webp');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
