@@ -18,12 +18,12 @@ const Footer = () => {
         </li>
         <li className={styles.icons}>
           <a href="mailto:ijcode.oficial@gmail.com">
-            <img src="/img/icons/email.svg" alt="" />
+            <img src="./img/icons/email.svg" alt="" />
           </a>
         </li>
         <li className={styles.icons}>
           <a href="https://www.instagram.com/ij.code/" target='blank'>
-            <img src="/img/icons/insta.svg" alt="" />
+            <img src="./img/icons/insta.svg" alt="" />
           </a>
         </li>
       </ul>
