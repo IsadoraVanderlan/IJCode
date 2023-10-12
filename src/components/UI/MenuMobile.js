@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import styles from './MenuMobile.module.css';
 
 const MenuMobile = () => {
-  const [mobileMenu, setMobileMenu] = useState(true);
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
     <div className={styles.container}>

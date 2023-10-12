@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 619px) {
   .menuHamburguer{
     display: none;
   }
