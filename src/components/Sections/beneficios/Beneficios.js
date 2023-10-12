@@ -22,7 +22,7 @@ const Beneficios = () => {
         <ul className={styles.ulbeneficios}>
           <li>
             <div>
-              <img src="/img/icons/atraente.svg" alt="" />
+              <img src="./img/icons/atraente.svg" alt="" />
             </div>
             <h3>Atraente e Responsivo</h3>
             <p>
@@ -33,7 +33,7 @@ const Beneficios = () => {
           </li>
           <li>
             <div>
-              <img src="/img/icons/computer.svg" alt="" />
+              <img src="./img/icons/computer.svg" alt="" />
             </div>
             <h3>Expertise Profissional</h3>
             <p>
@@ -45,7 +45,7 @@ const Beneficios = () => {
           </li>
           <li>
             <div>
-              <img src="/img/icons/results.svg" alt="" />
+              <img src="./img/icons/results.svg" alt="" />
             </div>
             <h3>Resultados Mensuráveis</h3>
             <p>

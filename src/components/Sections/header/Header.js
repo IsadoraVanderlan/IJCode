@@ -7,7 +7,7 @@ import MenuMobile from '@/components/UI/MenuMobile';
 const Header = () => {
   return (
     <header className={`${styles.main} main`}>
-      <img className={styles.logo} src="/img/logo.png" alt="" />
+      <img className={styles.logo} src="./img/logo.png" alt="" />
       <div className={styles.nav}>
         <Navbar />
         <Button />

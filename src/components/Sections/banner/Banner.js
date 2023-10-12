@@ -1,7 +1,7 @@
-'use client';
-import React from 'react';
-import { Fade } from 'react-reveal';
-import styles from './banner.module.css';
+"use client";
+import React from "react";
+import { Fade } from "react-reveal";
+import styles from "./banner.module.css";
 
 const Banner = () => {
   return (
@@ -12,15 +12,15 @@ const Banner = () => {
           <p className={styles.typewriter}>Inovação e sucesso.</p>
           <ul className={styles.iconbanner}>
             <li>
-              <img src="/img/icons/ok.svg" alt="" />
+              <img src="./img/icons/ok.svg" alt="" />
               Inovação e responsividade;
             </li>
             <li>
-              <img src="/img/icons/ok.svg" alt="" />
+              <img src="./img/icons/ok.svg" alt="" />
               Agilidade e responsabilidade;
             </li>
             <li>
-              <img src="/img/icons/ok.svg" alt="" />
+              <img src="./img/icons/ok.svg" alt="" />
               Confiança e segurança para sua empresa.
             </li>
           </ul>
