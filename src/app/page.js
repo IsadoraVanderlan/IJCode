@@ -6,6 +6,7 @@ import Footer from '@/components/Sections/footer/Footer';
 import Header from '@/components/Sections/header/Header';
 import Promocao from '@/components/Sections/promoção/Promocao';
 import Vantagens from '@/components/Sections/vantagens/Vantagens';
+import './page.css';
 
 export default function Home() {
   return (
@@ -15,9 +16,15 @@ export default function Home() {
       <Vantagens />
       <Promocao />
       <Beneficios />
-      <Depoimentos />
+      {/* <Depoimentos /> */}
       <Formulario />
       <Footer />
+
+      <div className="whats">
+        <a href="">
+          <img src="/img/WhatsApp.svg.webp" alt="" />
+        </a>
+      </div>
     </main>
   );
 }

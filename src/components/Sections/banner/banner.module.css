@@ -1,52 +1,45 @@
 .banner {
-  display: flex;
-  background-image: url('/img/img-banner3.svg');
+  background-image: url('/img/banner.svg');
+  background-position: bottom;
   background-size: cover;
-  justify-content: center;
-  width: 100%;
-  height: 490px;
+  padding: 5% 10% 30%;
+  z-index: 1;
+}
+
+.maxWidth{
+  margin: 0 auto;
+  max-width: 1920px;  
   color: rgb(255, 255, 255);
 }
 
+.textobanner{
+  width: 40%;
+}
+
 .textobanner h1 {
-  font-size: 90px;
+  font-size: 180px;
   font-weight: bold;
-  padding-top: 80px;
-  padding-left: 150px;
 }
 
 .textobanner p {
-  font-size: 35px;
+  font-size: 75px;
   font-weight: bold;
-  padding-left: 150px;
 }
 
 .textobanner ul {
   padding-top: 30px;
 }
 
-.textobanner li {
-  padding-left: 150px;
-  padding-top: 10px;
-  font-size: 18px;
-}
-
-.iconbanner img {
+.iconbanner img{
+  width: 30px;
   padding-right: 8px;
 }
 
-.imgbanner {
-  width: 650px;
-  position: relative;
-  margin-bottom: -50px;
+.iconbanner li{
+  font-size: 35px;
 }
 
-.imgbanner img{
-  width: 100%;
-  position: absolute;
-  top: 90px;
-}
-
+/************************** ANIMAÇÃO **************************/
 .typewriter {
   overflow: hidden;
   white-space: nowrap;
@@ -81,3 +74,69 @@
       width: 0;
   }
 }
+
+
+/************************** RESPONSIVE **************************/
+@media (max-width: 1800px) {
+  .banner {
+    padding: 5% 10% 25%;
+  }
+  .textobanner h1 {
+    font-size: 110px;
+  }
+  .textobanner p {
+    font-size: 45px;
+  }
+  .iconbanner li{
+    font-size: 20px;
+  }
+  .iconbanner img{
+    width: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .banner {
+    background-image: url('/img/banner1.svg') !important;
+    padding: 5% 10% 25%;
+  }
+  .textobanner h1 {
+    font-size: 110px;
+  }
+  .textobanner p {
+    font-size: 55px;
+  }
+  .iconbanner li{
+    font-size: 20px;
+  }
+  .iconbanner img{
+    width: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .textobanner{
+    width: 80%;
+  }
+  .textobanner h1 {
+    font-size: 80px;
+  }
+  .textobanner p {
+    font-size: 35px;
+  }
+  .iconbanner li{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    background-image: url('/img/banner3.svg') !important;
+    padding: 5% 10% 35%;
+  }
+  .textobanner{
+    width: 100%;
+  }
+}
+
+
