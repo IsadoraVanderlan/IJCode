@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Fade } from "react-reveal";
 import styles from "./banner.module.css";
 
 const Banner = () => {
@@ -25,11 +24,6 @@ const Banner = () => {
             </li>
           </ul>
         </div>
-        {/* <div className={styles.imgbanner}>
-          <Fade right>
-            <img src="/img/image-from-rawpixel-id-456067-deriv-1.webp" alt="" />
-          </Fade>
-        </div> */}
       </div>
     </main>
   );

@@ -12,21 +12,25 @@ const Footer = () => {
 
       <ul className={styles.ul_img_footer}>
         <li className={styles.icons}>
-          <a href="" >
+          <a href="https://api.whatsapp.com/send?phone=5511932158698" target='blank'>
             <img src="./img/icons/whats.svg" alt="" />
           </a>
         </li>
         <li className={styles.icons}>
-          <a href="" >
-            <img src="./img/icons/email.svg" alt="" />
+          <a href="mailto:ijcode.oficial@gmail.com">
+            <img src="/img/icons/email.svg" alt="" />
           </a>
         </li>
         <li className={styles.icons}>
-          <a href="" >
-            <img src="./img/icons/insta.svg" alt="" />
+          <a href="https://www.instagram.com/ij.code/" target='blank'>
+            <img src="/img/icons/insta.svg" alt="" />
           </a>
         </li>
       </ul>
+
+      <div className={styles.copy}>
+        <p>Copyright© - Todos os direiros reservados.</p>
+      </div>
     </div>
   );
 };

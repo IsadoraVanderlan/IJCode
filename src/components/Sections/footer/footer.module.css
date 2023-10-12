@@ -4,7 +4,7 @@
   align-items: center;
   background: linear-gradient(217deg,  #0e0569, #300123 90%),
   linear-gradient(127deg, #912572,  #241ade 10%);
-  padding: 50px 100px;
+  padding: 50px 0px 0px;
 }
 
 .footer p {
@@ -35,4 +35,15 @@
 
 .imgfooter {
   width: 80px;
+}
+
+.copy {
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.copy p{
+  color: #390b2c;
 }

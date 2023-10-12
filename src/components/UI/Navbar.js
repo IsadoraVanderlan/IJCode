@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import styles from './navbar.module.css';
 
 const Navbar = () => {
@@ -8,16 +9,52 @@ const Navbar = () => {
       <div>
         <ul className={styles.navbar}>
           <li>
-            <a href="">Home</a>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              href=""
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a href="">Vantagens</a>
+            <Link
+              to="vantagens"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              href=""
+            >
+              Vantagens
+            </Link>
           </li>
           <li>
-            <a href="">Beneficíos</a>
+            <Link
+              to="beneficios"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              href=""
+            >
+              Beneficíos
+            </Link>
           </li>
           <li>
-            <a href="">Orçamento</a>
+            <Link
+              to="orcamento"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              href=""
+            >
+              Orçamento
+            </Link>
           </li>
         </ul>
       </div>

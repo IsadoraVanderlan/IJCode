@@ -6,7 +6,7 @@ import MenuMobile from '@/components/UI/MenuMobile';
 
 const Header = () => {
   return (
-    <header className={`${styles.main} main`}>
+    <header className={`${styles.main} main`} id='home'>
       <img className={styles.logo} src="./img/logo.png" alt="" />
       <div className={styles.nav}>
         <Navbar />

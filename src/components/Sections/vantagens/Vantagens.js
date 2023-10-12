@@ -5,7 +5,7 @@ import styles from './vantagens.module.css';
 
 const Vantagens = () => {
   return (
-    <div className={styles.vantagens}>
+    <div className={styles.vantagens} id='vantagens'>
       <div>
       <Slide top>
         <p className={styles.pTopVantagens}>Contrate a IJCode e</p>

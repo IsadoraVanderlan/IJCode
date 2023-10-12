@@ -5,7 +5,7 @@ import styles from './beneficios.module.css';
 
 const Beneficios = () => {
   return (
-    <div className={styles.beneficios}>
+    <div className={styles.beneficios} id='beneficios'>
       <div>
         <Fade top>
           <h2>Benefícios</h2>

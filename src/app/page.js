@@ -21,10 +21,11 @@ export default function Home() {
       <Footer />
 
       <div className="whats">
-        <a href="">
+        <a href="https://api.whatsapp.com/send?phone=5511932158698" target='blank'>
           <img src="./img/WhatsApp.svg.webp" alt="" />
         </a>
       </div>
     </main>
   );
 }
+
