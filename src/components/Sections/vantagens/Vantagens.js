@@ -51,7 +51,7 @@ const Vantagens = () => {
                 A criação de um site permite a presença online 24 horas por dia,
                 7 dias por semana. Isso significa que os clientes em potencial
                 podem encontrar informações sobre a empresa, produtos e serviços
-                a qualquer momento, independentemente da localização ou horário.
+                a qualquer momento.
               </p>
             </li>
           </Slide>

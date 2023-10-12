@@ -3,6 +3,7 @@
   background-position: bottom;
   background-size: cover;
   padding: 5% 10% 30%;
+  z-index: 1;
 }
 
 .maxWidth{

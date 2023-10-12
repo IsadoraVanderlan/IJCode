@@ -1,6 +1,8 @@
 .vantagens {
+  background-color: #fff;
   text-align: center;
-  padding-top: 50px;
+  margin-top: -200px;
+  z-index: 2;
 }
 
 .pTopVantagens::before {
@@ -22,13 +24,14 @@
 }
 
 .vantagens h2 {
-  font-size: 55px;
+  font-size: 75px;
   padding-top: 0px;
 }
 
 .pvantagens {
   padding: 20px 300px 50px 300px;
   font-weight: 500;
+  font-size: 22px;
 }
 
 .ulvantagens {
@@ -46,9 +49,13 @@
 
 .ulvantagens h3 {
   color: #ad31c9;
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 5px;
   padding-bottom: 8px;
+}
+
+.ulvantagens p {
+  font-size: 20px;
 }
 
 .ulvantagens li {
@@ -78,36 +85,53 @@
   width: 50px;
 }
 
-
-@media only screen and (max-width: 950px) {
+/************************* RESPONSIVO *************************/
+@media only screen and (max-width: 1400px) {
+  .vantagens {
+    margin-top: -100px;
+  }
+  .vantagens h2 {
+    font-size: 75px;
+  }
   .pvantagens {
-    padding: 20px 100px 50px 100px;
-    font-weight: 500;
-  }
-  .livantagens {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  /* .imgdivisor {
-    padding: 40px 80px;
-    margin: 0px;
-  } */
-}
-
-@media only screen and (max-width: 720px) {
-  .imgdivisor {
-    display: none;
+    padding: 20px 50px 50px 50px;
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .livantagens {
-    display: none;
+@media only screen and (max-width: 1000px) {
+  .vantagens h2 {
+    font-size: 65px;
   }
-
   .pvantagens {
-    padding: 20px;
-    font-weight: 500;
+    font-size: 20px;
+  }
+  .ulvantagens p {
+    font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .vantagens {
+    margin-top: -50px;
+  }
+  .vantagens h2 {
+    font-size: 65px;
+  }
+  .pvantagens {
+    padding: 20px 50px 50px 50px;
+    font-size: 20px;
+  }
+  .ulvantagens p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vantagens h2 {
+    font-size: 55px;
+  }
+  .ulvantagens p {
+    font-size: 15px;
+  }
+}
+
