@@ -124,6 +124,10 @@
   .ulvantagens p {
     font-size: 18px;
   }
+  .livantagens {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -132,6 +136,9 @@
   }
   .ulvantagens p {
     font-size: 15px;
+  }
+  .imgdivisor {
+    display: none;
   }
 }
 

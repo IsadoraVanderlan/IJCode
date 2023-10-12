@@ -78,8 +78,20 @@
 
 /************************** RESPONSIVE **************************/
 @media (max-width: 1800px) {
+  .banner {
+    padding: 5% 10% 25%;
+  }
   .textobanner h1 {
-    font-size: 140px;
+    font-size: 110px;
+  }
+  .textobanner p {
+    font-size: 45px;
+  }
+  .iconbanner li{
+    font-size: 20px;
+  }
+  .iconbanner img{
+    width: 20px;
   }
 }
 

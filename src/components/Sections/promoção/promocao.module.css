@@ -3,6 +3,7 @@
   align-items: center;
   margin-bottom: 100px;
   margin-top: 80px;
+  padding: 0px 200px;
 }
 
 .imgpromocao {
@@ -54,11 +55,19 @@
   font-weight: bold;
 }
 
+@media only screen and (max-width: 1900px)  {
+  .promocao {
+    padding: 0px 100px;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
+  .promocao {
+    padding: 0px 20px;
+  }
   .imgpromocao {
     padding: 30px;
     width: 100%;
-
   }
   .imgpromocao img {
     width: 80%;
