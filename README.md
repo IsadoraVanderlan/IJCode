@@ -10,7 +10,7 @@ Este site foi desenvolvido com React.JS, fique a vontade para explorar o código
 
 # Link Para Visualização do Site:
 
-<a href="https://isadoravanderlan.github.io/landingpage_ijcode/">IJCode
+<a href="https://isadoravanderlan.github.io/IJCode/">IJCode
 </a>
 <br/>
 
