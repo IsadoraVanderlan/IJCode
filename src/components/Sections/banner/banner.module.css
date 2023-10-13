@@ -131,7 +131,7 @@
 
 @media (max-width: 600px) {
   .banner {
-    background-image: url('../../../../public/img/banner.svg') !important;
+    background-image: url('../../../../public/img/banner3.svg') !important;
     padding: 5% 10% 35%;
   }
   .textobanner{
