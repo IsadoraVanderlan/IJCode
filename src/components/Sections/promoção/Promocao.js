@@ -16,7 +16,7 @@ const Promocao = () => {
 
       <div className={styles.textopromocao}>
         <Fade right>
-          <h2>Desconto Exclusivo</h2>
+          <h2>Promoção Exclusivo</h2>
           <p className={styles.ppromocao}>
             Indique um amigo e ganhe 10% do valor pago ao final do projeto!
           </p>
