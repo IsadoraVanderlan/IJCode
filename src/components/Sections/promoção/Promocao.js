@@ -9,7 +9,7 @@ const Promocao = () => {
       <Fade left>
         <div className={styles.caixaimgpromocao}>
           <div className={styles.imgpromocao}>
-            <img src="./img/img-desconto.png" alt="" />
+            <img src="./img/img-indicacao.png" alt="" />
           </div>
         </div>
       </Fade>
@@ -18,8 +18,7 @@ const Promocao = () => {
         <Fade right>
           <h2>Desconto Exclusivo</h2>
           <p className={styles.ppromocao}>
-            Indique um amigo e ganhe desconto de 20% no desenvolvimento do seu
-            site!
+            Indique um amigo e ganhe 10% do valor pago ao final do projeto!
           </p>
 
           <h3>Detalhes da Promoção:</h3>
@@ -34,16 +33,15 @@ const Promocao = () => {
             </li>
             <li>
               <p className={styles.passospromocao}>Passo 3:</p>
-              <p>Você ganha esse desconto incrível de 20%</p>
+              <p>Você ganha 10% do valor pago como premiação.</p>
             </li>
           </ul>
 
           <h3>Termos e Condições:</h3>
           <p>
             Não há limite para o número de amigos que você pode indicar, então
-            quanto mais amigos você indicar, mais descontos você pode acumular.
-            O desconto só será aplicado quando o seu indicado fizer o primeiro
-            pagamento!
+            quanto mais amigos você indicar, mais você vai ganhar.
+            Você só receberá o pagamento quando a pessoa que contratol fizer o pagamento!
           </p>
         </Fade>
       </div>
